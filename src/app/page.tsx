@@ -51,8 +51,10 @@ export default function Home() {
             <a href="https://github.com/5zani" className="text-blue-600 mt-2 inline-block">GitHub →</a>
           </div>
           <div className="bg-white shadow rounded-lg p-6">
-            <h3 className="font-bold text-lg">Accident-Detection</h3>
-            <p className="mt-2 text-sm">Accident Detection System An accident detection system is a technology designed to automatically identify and report vehicle accidents, often with the goal of minimizing response times and improving safety.</p>
+            <h3 className="font-bold text-lg">Accident Detection</h3>
+            <p className="mt-2 text-sm">
+              Accident Detection System: A technology designed to automatically identify and report vehicle accidents to minimize response times and improve safety.
+            </p>
             <a href="https://github.com/5zani" className="text-blue-600 mt-2 inline-block">GitHub →</a>
           </div>
           <div className="bg-white shadow rounded-lg p-6">
