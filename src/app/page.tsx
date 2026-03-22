@@ -5,7 +5,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="h-screen flex flex-col justify-center items-center text-center px-4">
         <h1 className="text-5xl font-bold text-blue-700">
-          Hi, I'm Mohammed Faizan Khan
+          Hi, I&apos;m Mohammed Faizan Khan
         </h1>
         <p className="text-xl mt-4 text-gray-600">
           Data Quality Analyst | Data Analyst | AI & ML Enthusiast
