@@ -5,7 +5,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="h-screen flex flex-col justify-center items-center text-center">
         <h1 className="text-5xl font-bold">Hi, I'm Mohammed Faizan Khan</h1>
-        <p className="text-xl mt-4">Aspiring Data Scientist | Data Analyst | AI & ML Enthusiast.</p>
+        <p className="text-xl mt-4">Data Engineer | Data Analyst | AI & ML Enthusiast.</p>
         <a href="#projects" className="mt-6 px-6 py-3 bg-blue-600 text-white rounded-xl shadow hover:bg-blue-700">
           View My Work
         </a>
@@ -15,9 +15,9 @@ export default function Home() {
       <section id="about" className="max-w-3xl mx-auto py-16 px-4">
         <h2 className="text-3xl font-bold mb-4">About Me</h2>
         <p>
-          I hold a B.Sc in Data Science and I'm passionate about Artificial Intelligence,
-          Machine Learning, and building real-world projects that make an impact. 
-          Currently preparing for opportunities in Japan while also improving my Japanese language (N3 target).
+          Skilled Data Engineer specializing in MongoDB pipeline engineering, API integrations, and automated data quality frameworks. 
+          Recognized for independently building Aggregate Intelligence's first automated dashboard, transforming manual reporting processes into scalable,
+          real-time data solutions.
         </p>
       </section>
 
@@ -25,14 +25,12 @@ export default function Home() {
       <section id="skills" className="bg-white py-16 px-4">
         <h2 className="text-3xl font-bold text-center mb-8">Skills</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-          <div className="p-4 shadow rounded-lg">Python</div>
-          <div className="p-4 shadow rounded-lg">Machine Learning</div>
-          <div className="p-4 shadow rounded-lg">SQL</div>
-          <div className="p-4 shadow rounded-lg">Power BI</div>
-          <div className="p-4 shadow rounded-lg">Next.js</div>
-          <div className="p-4 shadow rounded-lg">Tailwind CSS</div>
-          <div className="p-4 shadow rounded-lg">GitHub</div>
-          <div className="p-4 shadow rounded-lg">Data Visualization</div>
+          <div className="p-4 shadow rounded-lg">Data & Databases (SQL, MongoDB, DBeaver)</div>
+          <div className="p-4 shadow rounded-lg">Data Engineering (ETL Pipeline Validation, Data Quality Checks, REST API / Postman, Databricks (familiar))</div>
+          <div className="p-4 shadow rounded-lg">Machine Learning (Scikit-learn, OpenCV, Supervised Learning, Data Preprocessing)</div>
+          <div className="p-4 shadow rounded-lg">BI & Visualization (Power BI, Grafana, Tableau, Microsoft Excel)</div>
+          <div className="p-4 shadow rounded-lg">Programming (Python, Pandas, Py-Spark, Selenium)</div>
+          <div className="p-4 shadow rounded-lg">Tools & Workflow ( Jira / Agile Sprints, Git / GitHub, VS Code, Business Intelligence)</div>
         </div>
       </section>
 
@@ -57,10 +55,6 @@ export default function Home() {
             </p>
             <a href="https://github.com/5zani" className="text-blue-600 mt-2 inline-block">GitHub →</a>
           </div>
-          <div className="bg-white shadow rounded-lg p-6">
-            <h3 className="font-bold text-lg">Law Firm Website</h3>
-            <p className="mt-2 text-sm">Modern animated law firm website using Next.js, Tailwind CSS & Framer Motion.</p>
-          </div>
         </div>
       </section>
 
@@ -68,17 +62,18 @@ export default function Home() {
       <section id="achievements" className="bg-white py-16 px-4">
         <h2 className="text-3xl font-bold text-center mb-8">Achievements</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-          <div className="p-4 shadow rounded-lg">National Level Paper Presentation in the topic of "Quantum Mechanics" organized by SUGNA College of Technology Coimbatore.</div>
-          <div className="p-4 shadow rounded-lg">Published my Journal paper in the topic of "Quantum Mechanics and research"</div>
-          <div className="p-4 shadow rounded-lg">Completed the "NPTEL" Exam in the subject of "Enhancing Soft skill and personality"</div>
-          <div className="p-4 shadow rounded-lg">Certified in "Object Detection and Recognition Using Deep Learning in OpenCV & Explore Machine Learning using Python" in "Infosys springboard"</div>
+          <div className="p-4 shadow rounded-lg">Built the organization's first ever automated dashboard powered by MongoDB pipelines, eliminating manual reporting and saving significant team hours weekly</div>
+          <div className="p-4 shadow rounded-lg">National Level Paper Presentation in the topic of "Quantum Mechanics" organized by SUGNA College of Technology Coimbatore</div>
+          <div className="p-4 shadow rounded-lg">Completed the "NPTEL" Exam in the subject of "Enhancing Soft skill and personality</div>
+          <div className="p-4 shadow rounded-lg">Certified in "Object Detection and Recognition Using Deep Learning in OpenCV & Explore Machine Learning using Python in "Infosys springboard"</div>
+          <div className="p-4 shadow rounded-lg">Published my Journal paper in the topic of "Quantum Mechanics and research</div>
         </div>
       </section>
 
       {/* GETINTOUCH! */}
       <section id="GETINTOUCH!" className="bg-gray-100 py-16 text-center">
         <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
-        <p>Email: <a href="faizankhanyahoou@gmail.com" className="text-blue-600">faizankhanyahoou@gmail.com</a></p>
+        <p>Email: <a href="faizankhanyahoou@gmail.com" className="text-blue-600">faizankhani020624@gmail.com</a></p>
         <p>LinkedIn: <a href="https://linkedin.com/in/mohammed-faizan-khan-6a1a90249" className="text-blue-600">My LinkedIn</a></p>
         <p>GitHub: <a href="https://github.com/5zani" className="text-blue-600">My GitHub</a></p>
         <p>Mobile: <a href="+91-9751527326" className="text-blue-600">+91-9751527326</a></p>
